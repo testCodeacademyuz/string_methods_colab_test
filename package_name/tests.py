@@ -76,4 +76,13 @@ task = [
     "taskNine",
     "taskTen",]
 
-q1 = TestCaseRunner(task_name="task01", homework_name="SlicingHomework", task=task[0])
+q1 = TestCaseRunner(task_name="string01", homework_name="string_methods", task=task[0])
+q2 = TestCaseRunner(task_name="string02", homework_name="string_methods", task=task[1])
+q3 = TestCaseRunner(task_name="string03", homework_name="string_methods", task=task[2])
+q4 = TestCaseRunner(task_name="string04", homework_name="string_methods", task=task[3])
+q5 = TestCaseRunner(task_name="string05", homework_name="string_methods", task=task[4])
+q6 = TestCaseRunner(task_name="string06", homework_name="string_methods", task=task[5])
+q7 = TestCaseRunner(task_name="string07", homework_name="string_methods", task=task[6])
+q8 = TestCaseRunner(task_name="string08", homework_name="string_methods", task=task[7])
+q9 = TestCaseRunner(task_name="string09", homework_name="string_methods", task=task[8])
+q10 = TestCaseRunner(task_name="string10", homework_name="string_methods", task=task[9])
