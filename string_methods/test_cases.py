@@ -1,147 +1,142 @@
 test_cases = {
     "taskOne":[
-        # A variable of type string is given. Find its length.
         {
-            "input":["python code"],
-            "expected":11
+            "input": ["google is a search engine"],
+            "expected": "Google Is A Search Engine"
         },
         {
-            "input": ["hello world."],
-            "expected": 12
-        }
+            "input": ["code python"],
+            "expected": "Code Python"
+        },
+        {
+            "input": ["hello world this is Python"],
+            "expected": "Hello World This Is Python"
+        },
     ],
     "taskTwo":[
-        # A string type variable is given. Return True if its length is even. Return False if its length is odd.
         {
-            "input": ["python3"],
-            "expected": False
+            "input": ["apple juice"],
+            "expected": "APPLE JUICE"
         },
         {
-            "input": ["django"],
-            "expected": True
-        }
+            "input": ["PYTHON IS THE BEST"],
+            "expected": "PYTHON IS THE BEST"
+        },
+        {
+            "input": ["hello WORD"],
+            "expected": "HELLO WORD"
+        },
     ],
     "taskThree":[
-        # String type variables a and b are given. Return True if the length is equal. If not equal, return False.
         {
-            "input": ["python", "django"],
+            "input": ["DASTURLASH"],
+            "expected": "dasturlash"
+        },
+        {
+            "input": ["1 PYTHON IS the best"],
+            "expected": "1 python is the best"
+        },
+        {
+            "input": ["matematika is DIFUCULT"],
+            "expected": "matematika is difucult"
+        },
+    ],
+    "taskFour":[
+        {
+            "input": ["apple phone"],
             "expected": True
         },
         {
-            "input": ["python", " "],
+            "input": ["googlE chrome"],
             "expected": False
         },
         {
-            "input": [" ", " "],
+            "input": ["WEB PROGRAMMING"],
+            "expected": False
+        },
+    ],
+    "taskFive":[
+        {
+            "input": ["mobile development"],
+            "expected": "Mobile development"
+        },
+        {
+            "input": ["python is great"],
+            "expected": "Python is great"
+        },
+        {
+            "input": ["WEB PROGRAMMING"],
+            "expected": "Web programming"
+        },
+    ],
+    "taskSix":[
+        {
+            "input": ["12345"],
+            "expected": True
+        },
+        {
+            "input": ["22TH"],
+            "expected": False
+        },
+        {
+            "input": ["2023!"],
+            "expected": False
+        },
+    ],
+    "taskSeven":[
+        {
+            "input": ["1?"],
+            "expected": False
+        },
+        {
+            "input": ["22TH"],
+            "expected": False
+        },
+        {
+            "input": ["asdfghjkl"],
             "expected": True
         },
     ],
-
-    "taskFour":[
-        # A string variable s is given. Return the "*" sign that is equal to the length of this variable.
+    "taskEight":[
         {
-            "input": ["python"],
-            "expected": "******"
+        "input": ["CODEACADEMY"],
+            "expected": True
         },
         {
-            "input": ["***"],
-            "expected": "***"
+            "input": ["AA22bTH"],
+            "expected": False
         },
         {
-            "input": ["  "],
-            "expected": "**"
+            "input": ["asdfghjkl"],
+            "expected": False
         },
     ],
-
-    # Given two strings, s1 and s2. Find their total length.
-    "taskFive":[
+    "taskNine":[
         {
-            "input": ["python", "django"],
+            "input": ["CODEACADEMY PROGRAMMING Education"],
+            "expected": 4
+        },
+        {
+            "input": ["qwertymnb 22TH"],
+            "expected": 0
+        },
+        {
+            "input": ["asdfghjkl"],
+            "expected": 1
+        },
+    ],
+    "taskTen":[
+        {
+            "input": ["Mobile tpye xiomi"],
             "expected": 12
         },
         {
-            "input": ["backend", "frontend"],
-            "expected": 15
+            "input": ["iphone x is a mobile"],
+            "expected": 7
         },
         {
-            "input": ["start", " "],
-            "expected": 6
-        },
-    ],
-
-# Given two strings, s1 and s2. Return the shortest length between them.
-    "taskSix":[
-        {
-            "input": ["codeacademy", "advantage"],
-            "expected": "advantage",
-        },
-        {
-            "input": ["academy", "codeacademy"],
-            "expected": "academy",
-        },
-        {
-            "input": ["python", "django"],
-            "expected": "django"
-        }
-    ],
-    # Given three strings, s1, s2 and s3. return their odd lengths, example "[s1, s2]". If there is no odd length, return "[]".
-    "taskSeven":[
-        {
-            "input": ["python", "django", "codeacademy"],
-            "expected": "[codeacademy]"
-        },
-        {
-            "input": ["python", "django", "codeacademy", "advantage."],
-            "expected": "[codeacademy]"
-        },
-        {
-            "input": ['    ', '  '],
-            "expected": "[]"
+            "input": ["qwer tyui oplk"],
+            "expected": 0
         },
     ],
-    # Given variable type string s. Return the character in the muddle. If the length is even, return two characters in the middle
-    "taskEight":[
-        {
-            "input":["django"],
-            "expected": "an"
-        },
-        {
-            "input": ["codeacademy"],
-            "expected": "c"
-        },
-        {
-            "input": ["python"],
-            "expected": "th"
-        },
-    ],
-    # Given two non-negative integers, num1 and num2 represented as string. Return the sum of num1 and num2 as a string.
-    "taskNine":[
-        {
-            "input": ['0','10'],
-            "expected": '10'
-        },
-        {
-            "input": ['11', '10'],
-            "expected": "21"
-        }
-    ],
-    # A string of length three is given. Check that it is a palindrome. Return True if the palindrome is False otherwise
-    "taskTen":[
-        {
-            "input": ["man"],
-            "expected": False
-        },
-        {
-            "input": ["dad"],
-            "expected": True
-        },
-        {
-            "input": ["python"],
-            "expected": False
-        },
-        {
-            "input": ["wow"],
-            "expected": True
-        },
-    ]
 }
