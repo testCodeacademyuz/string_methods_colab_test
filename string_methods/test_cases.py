@@ -113,21 +113,21 @@ test_cases = {
     ],
     "taskNine":[
         {
-            "input": ["CODEACADEMY PROGRAMMING Education"],
+            "input": ["codeacademy IT academy"],
             "expected": 4
         },
         {
-            "input": ["qwertymnb 22TH"],
+            "input": ["programming"],
             "expected": 0
         },
         {
-            "input": ["asdfghjkl"],
+            "input": ["anonymous"],
             "expected": 1
         },
     ],
     "taskTen":[
         {
-            "input": ["Mobile tpye xiomi"],
+            "input": ["Mobile type xiomi"],
             "expected": 12
         },
         {
@@ -135,8 +135,8 @@ test_cases = {
             "expected": 7
         },
         {
-            "input": ["qwer tyui oplk"],
-            "expected": 0
+            "input": ["find index of x in this sentence"],
+            "expected": 9
         },
     ],
 }
