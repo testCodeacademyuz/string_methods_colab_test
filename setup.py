@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-   name='package_name',
+   name='string_methods',
    version='0.1.0',
-   packages=['package_name'],
-   description='This is package_name Test',
+   packages=['string_methods'],
+   description='This is string_methods Test',
    install_requires=[
        "requests",
    ]

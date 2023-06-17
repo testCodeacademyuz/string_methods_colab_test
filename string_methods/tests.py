@@ -1,5 +1,5 @@
-from package_name import CheckSolution
-from package_name import test_cases
+from string_methods import CheckSolution
+from string_methods import test_cases
 
 class TestCaseRunner(CheckSolution):
     def __init__(self, task_name, homework_name, task):

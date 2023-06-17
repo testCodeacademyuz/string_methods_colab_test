@@ -1,0 +1,11 @@
+README.md
+setup.py
+string_methods/__init__.py
+string_methods/checker.py
+string_methods/test_cases.py
+string_methods/tests.py
+string_methods.egg-info/PKG-INFO
+string_methods.egg-info/SOURCES.txt
+string_methods.egg-info/dependency_links.txt
+string_methods.egg-info/requires.txt
+string_methods.egg-info/top_level.txt
