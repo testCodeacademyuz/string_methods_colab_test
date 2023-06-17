@@ -118,7 +118,7 @@ test_cases = {
         },
         {
             "input": ["programming"],
-            "expected": 0
+            "expected": 1
         },
         {
             "input": ["anonymous"],
